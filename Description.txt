@@ -1,0 +1,1 @@
+We are using medallion architecture in our project. T o convert our raw data from different sources and then cleanse it and load the transformed data in database.
