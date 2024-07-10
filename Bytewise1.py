@@ -131,15 +131,6 @@ customer_address = dictionary_to_look_in["address"]
 
 new_customer_id = len(customers)
 
-new_dictionary = {
-"customer id": new_customer_id,
-"first name": new_first_name,
-"last name": new_last_name,
-"address": new_address,
-}
-
-#to append the new dictionary into the customers list
-customers.append(new_dictionary)
 
 # creating a list within a dictionary
 customer_29876 = {
@@ -193,3 +184,5 @@ elif "standard" in customer_29876["discounts"]:
   second_number = 3
   total = first_number + second_number
   print(total)
+
+
